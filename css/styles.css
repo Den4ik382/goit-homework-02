@@ -183,7 +183,7 @@ _ .strategy {
 .foot {
   background: var(--NAVY-BLUE, #2e2f42);
 }
-1 .foot-link {
+.foot-link {
   color: var(--CLOUD, #f4f4fd);
   font-family: Raleway, sans-serif;
   font-size: 18px;
