@@ -18,6 +18,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.post-link:hover {
+  color: #404bbf;
+}
 ul {
   list-style: none;
 }
