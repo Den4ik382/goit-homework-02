@@ -22,9 +22,16 @@ ul {
   list-style: none;
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .header-nav {
@@ -88,7 +95,6 @@ ul {
 
 .hero-btn {
   font-family: "Roboto", sans-serif;
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: var(--WHITE, #fff);
@@ -98,8 +104,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.hero-btn:hover,
-.hero-btn:focus,
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
 .hero-btn:active {
   background-color: #404bbf;
 }
