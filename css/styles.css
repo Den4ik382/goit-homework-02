@@ -78,7 +78,6 @@ ul {
 }
 
 .hero-tittle {
-  font-family: inherit;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
@@ -88,7 +87,7 @@ ul {
 }
 
 .hero-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: var(--WHITE, #fff);
