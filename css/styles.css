@@ -21,13 +21,7 @@ a {
 ul {
   list-style: none;
 }
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .header-nav {
 }
 
@@ -84,7 +78,7 @@ ul {
 }
 
 .hero-tittle {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
@@ -94,7 +88,7 @@ ul {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: var(--WHITE, #fff);
