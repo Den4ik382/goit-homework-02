@@ -41,7 +41,7 @@ ul {
 }
 
 .header-list {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -87,7 +87,7 @@ ul {
 }
 
 .hero-btn {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
@@ -99,8 +99,9 @@ ul {
   letter-spacing: 0.04em;
 }
 .hero-btn:hover,
-.hero-btn:focus {
-  color: #404bbf;
+.hero-btn:focus,
+.hero-btn:active {
+  background-color: #404bbf;
 }
 
 _ .strategy {
@@ -213,7 +214,7 @@ _ .strategy {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.foot span {
+.span-foot {
   color: var(--CLOUD, #f4f4fd);
   font-family: Raleway, sans-serif;
   font-size: 18px;
