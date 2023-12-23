@@ -48,17 +48,17 @@ ul {
 }
 
 .header-list {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .header-item {
 }
 
 .header-link-nav {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-link-nav:hover,
 .header-link-nav:focus,
@@ -80,11 +80,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header-link-addres:hover,
+.header-link-addres:focus,
+.header-link-addres:active {
+  color: #404bbf;
+}
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .hero-tittle {
+  font-family: "Roboto", sans-serif;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
